@@ -53,7 +53,18 @@ public class WebScraper {
                 marketplaceProduct.setImage(product.selectFirst("img").attr("src"));
             }
 
-
+            try (FileWriter writer = new FileWriter("dadosDoProduto.txt")) {
+                
+                writer.write("Abaixo toda a raspagem de dados: ");
+                writer.append("\n-------------------------\n");
+                writer.append(marketplaceProduct.toString());
+                writer.append("\n(Feito com <3 por @renatangr | Usando Java + Jsoup lib)");
+            
+            } catch (IOException e) {
+                e.printStackTrace();
+                
+            }
+                        
         } catch (IOException e) {
             e.printStackTrace();
             
