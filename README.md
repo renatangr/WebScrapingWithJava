@@ -48,7 +48,7 @@ Siga estas etapas para usar o código:
 
 ## 🎉 Conclusão 🎉
  
-Este projeto de raspagem de dados da NETSHOES usando Java e Jsoup demonstra como extrair informações de produtos da NETSHOES a partir de URLs específicas. Desenvolvê-lo foi uma experiência valiosa na qual pude aprender muito durante este projeto, como por exemplo:
+Este projeto de raspagem de dados usando Java e Jsoup demonstra como extrair informações de produtos da NETSHOES a partir de URLs específicas. Desenvolvê-lo foi uma experiência valiosa na qual pude aprender muito durante este projeto, como por exemplo:
 
 - **Raspagem de Dados**: Aprendi como usar a biblioteca Jsoup para realizar a raspagem de dados de páginas da web. Isso inclui extrair informações específicas de elementos HTML e processar os dados obtidos.
 
