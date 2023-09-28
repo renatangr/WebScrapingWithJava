@@ -29,6 +29,29 @@ public class WebScraper {
 
             Product marketplaceProduct = new Product();
 
+            Elements productElement = doc.select(".short-description h1");
+            Elements priceElement = doc.select(".price strong");
+            Elements descriptionElement = doc.select(".features p");
+            Elements imageElement = doc.select(".photo figure");
+
+            for (Element product : productElement) {
+                String productName = product.text();
+                marketplaceProduct.setName(productName);
+            }
+
+            for (Element product : priceElement) {
+                String productPrice = product.text();
+                marketplaceProduct.setPrice(productPrice);
+            }
+
+            for (Element product : descriptionElement) {
+                String productDescription = product.text();
+                marketplaceProduct.setDescription(productDescription);
+            }
+
+            for (Element product : imageElement) {
+                marketplaceProduct.setImage(product.selectFirst("img").attr("src"));
+            }
 
 
         } catch (IOException e) {
