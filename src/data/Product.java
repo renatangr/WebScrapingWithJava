@@ -39,4 +39,12 @@ public class Product {
         this.image = image;
     }
     
+    @Override
+    public String toString() { 
+            return "Nome do produto: " +getName() +
+                   "\nValor: " + getPrice() +
+                   "\nDescrição: " + getDescription() +                   
+                   "\nUrl da imagem: " + getImage();
+    }
+    
 }
