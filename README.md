@@ -1,7 +1,7 @@
-# Raspagem de Dados com Java e Jsoup
+# 🔍 Raspagem de Dados com Java e Jsoup 
 
 Este é um projeto simples que demonstra como realizar a raspagem de dados de um produto usando Java e a biblioteca Jsoup. A raspagem de dados é feita a partir de uma URL fornecida pelo usuário e os resultados são armazenados em um arquivo de texto '.txt
-## Pré-requisitos
+## 📋 Pré-requisitos
 
 Antes de começar, certifique-se de ter o seguinte instalado em seu sistema:
 
@@ -10,14 +10,16 @@ Antes de começar, certifique-se de ter o seguinte instalado em seu sistema:
 - [Jsoup Lib](https://jsoup.org/download) (após clonar o repositório, é necessário baixar a última versão do arquivo .jar "jsoup-1.16.1.jar core library" e adicioná-lo nas bibliotecas do projeto)
 
   
-## Preview o programa executado com sucesso:
+## 💻 Preview o programa executado com sucesso:   
+
 <img src="https://github.com/renatangr/WebScrapingWithJava/blob/main/webscraperresults.gif" alt="Animado" width="800">
 
-## Print do Arquivo .txt gerado após execução:
+## 💻 Print do Arquivo .txt gerado após execução:  
+
 <img src="https://github.com/renatangr/WebScrapingWithJava/blob/main/arquivotxtcriado.png" alt="png" width="1200">
 
 
-## Como Usar
+## 🚀 Como Usar
 
 Siga estas etapas para usar o código:
 
@@ -26,9 +28,10 @@ Siga estas etapas para usar o código:
    ```bash
    git clone https://github.com/renatangr/WebScrapingWithJava
    
-2. Abra a pasta Source, entre no package application e rode o arquivo WebScraper.java
-3. O programa solicitará que você insira a URL do produto NETSHOES desejado.
-   Após inserir a URL, o programa realizará a raspagem de dados e armazenará os resultados em um arquivo chamado dadosDoProduto.txt. 
+2. Com o arquivo .jar da última versão do jsoup baixado, acrescente-o no projeto (pode ser feito manualmente ou através da resolução de problemas da IDE).
+3. Abra a pasta Source Packages, entre no package application e rode o arquivo WebScraper.java.
+4. O programa solicitará que você insira a URL do produto NETSHOES desejado.    
+   Após inserir a URL, o programa realizará a raspagem de dados e armazenará os resultados em um arquivo chamado dadosDoProduto.txt.     
    Aqui estão algumas sugestões de URLs:
 - [Jaqueta Adidas Brand Love Masculina Preto](https://www.netshoes.com.br/jaqueta-adidas-brand-love-masculina-preto-FB8-3644-006)
 - [Tênis Bebê Batatinha Tiras Menina Rosa](https://www.netshoes.com.br/tenis-bebe-batatinha-tiras-menina-rosa-U62-0578-018)
@@ -43,14 +46,15 @@ Siga estas etapas para usar o código:
 - [Necessaire Farm Tucanos Ponto Cruz Feminina Onça](https://www.netshoes.com.br/necessaire-farm-tucanos-ponto-cruz-feminina-onca-I98-6915-209)
 - [Jibbitz Infantil Crocs New Holiday 3 Packs Colorido](https://www.netshoes.com.br/jibbitz-infantil-crocs-new-holiday-3-packs-colorido-FDT-0581-888)
 
-## Conclusão
-
-Este projeto de raspagem de dados da NETSHOES usando Java e Jsoup demonstra como extrair informações de produtos da NETSHOES a partir de URLs específicas. Este projeto foi uma experiência valiosa na qual pude aprender muito durante o desenvolvimento deste projeto, como por exemplo:
+## 🎉 Conclusão 🎉
+ 
+Este projeto de raspagem de dados da NETSHOES usando Java e Jsoup demonstra como extrair informações de produtos da NETSHOES a partir de URLs específicas. Desenvolvê-lo foi uma experiência valiosa na qual pude aprender muito durante este projeto, como por exemplo:
 
 - **Raspagem de Dados**: Aprendi como usar a biblioteca Jsoup para realizar a raspagem de dados de páginas da web. Isso inclui extrair informações específicas de elementos HTML e processar os dados obtidos.
 
 - **Manipulação de Arquivos em Java**: Aprendi como criar e escrever em arquivos de texto usando Java Writer. Isso é útil para armazenar os resultados da raspagem de dados.
 
+## Obrigada por me acompanhar até aqui!! 👏👏👏
 
 **Aviso**: Este projeto é apenas para fins de demonstração e de aprendizado.
 
