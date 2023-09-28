@@ -1,22 +1,21 @@
 # Raspagem de Dados com Java e Jsoup
 
 Este é um projeto simples que demonstra como realizar a raspagem de dados de um produto usando Java e a biblioteca Jsoup. A raspagem de dados é feita a partir de uma URL fornecida pelo usuário e os resultados são armazenados em um arquivo de texto '.txt
-
-## Demonstração da execução:
-<img src="https://github.com/renatangr/WebScrapingWithJava/blob/main/webscraperresults.gif" alt="Animado" width="800">
-
-## Arquivo .txt gerado após execução:
-<img src="https://github.com/renatangr/WebScrapingWithJava/blob/main/arquivotxtcriado.png" alt="png" width="1200">
-
-
-
-
 ## Pré-requisitos
 
 Antes de começar, certifique-se de ter o seguinte instalado em seu sistema:
 
 - [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/javase-downloads.html)
 - [IDE NetBeans](https://netbeans.apache.org/download/index.html) (opcional, se desejar pode usar outra)
+- [Jsoup Lib](https://jsoup.org/download) (após clonar o repositório, é necessário baixar a última versão do arquivo .jar "jsoup-1.16.1.jar core library" e adicioná-lo nas bibliotecas do projeto)
+
+  
+## Preview o programa executado com sucesso:
+<img src="https://github.com/renatangr/WebScrapingWithJava/blob/main/webscraperresults.gif" alt="Animado" width="800">
+
+## Print do Arquivo .txt gerado após execução:
+<img src="https://github.com/renatangr/WebScrapingWithJava/blob/main/arquivotxtcriado.png" alt="png" width="1200">
+
 
 ## Como Usar
 
